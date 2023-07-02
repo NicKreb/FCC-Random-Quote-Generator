@@ -1,1 +1,52 @@
 /* FCC random quote Css coding */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+body {
+  display: flex;
+  background-color: #3BD9BA;
+  height: 100vh;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box{
+  display: table;
+  position: relative;
+  height: 40vh;
+  width: 40vw;
+  font-size: 100;
+  background-color: #C0D7D2;
+  padding: 40px 50px;
+  border-radius: 25px;
+  border: solid 3px #9EB0AC;
+}
+
+#quote-box .buttons {
+    width: 450px;
+    margin: auto;
+    display: block;
+}
+
+#quote-box .buttons .button {
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-size: 0.85em;
+    padding: 8px 18px 6px 18px;
+    margin-top: 30px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.fa {
+  display: relative;
+  font-size: 2vw;
+}
