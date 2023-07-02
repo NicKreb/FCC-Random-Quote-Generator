@@ -17,3 +17,29 @@ quoteObjectsArray = [
   {quote: "I'd like to live like a poor man - only with a lot of money.",
   author: "Pablo Picasso"},
   ];
+
+
+var colors = [
+  '#C0D7D2',
+  '#3BD9BA',
+  '#3BD970',
+  '#79D93B',
+  '#D99D3B',
+  '#3B74D9',
+  '#8A3BD9',
+  '#D93BCD'
+];
+
+var currentQuote = '',
+  currentAuthor = '';
+
+function quoteArrayIndex(){
+ randomQuote = quoteObjectsArray[Math.floor(Math.random()*quoteObjectsArray.length)];
+}
+
+function genQuote(){
+  var currentIndex = quoteArrayIndex();
+  
+  currentQuote = currentIndex.quote;
+  currentAuthor = currentIndex.author;
+}
