@@ -3,7 +3,12 @@
   <div class="wrapper" id="quote-box">
     <div id="text"></div>
     <div id="author"></div>
-    <button id="new-quote"></button>
-    <a class="fa fa-twitter" id="tweet-quote" href="twitter.com/intent/tweet"></a>
+    <div class="buttons" id="buttons">
+      <a class="button" id="tweet-quote" title="Tweet this quote!" target="_top" href="twitter.com/intent/tweet">
+            <i class="fa fa-brands fa-twitter"></i>
+       </a>
+       <button class="button" id="new-quote" onclick="genQuote()">New Quote!</button>
+    </div>
   </div>
+    <div class="footer">By Nick H.</div>
 </body>
