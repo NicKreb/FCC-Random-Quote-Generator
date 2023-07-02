@@ -28,6 +28,17 @@ body {
   border: solid 3px #9EB0AC;
 }
 
+#quote-box #text {
+  font-family: Snell Roundhand, cursive;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#quote-box #author {
+  font-family: Snell Roundhand, cursive;
+  font-weight: bold;
+}
+
 #quote-box .buttons {
     width: 450px;
     margin: auto;
