@@ -30,16 +30,12 @@ var colors = [
   '#D93BCD'
 ];
 
-var currentQuote = '',
-  currentAuthor = '';
-
-function quoteArrayIndex(){
- return randomQuote = quoteObjectsArray[Math.floor(Math.random()*quoteObjectsArray.length)];
-}
-
 function genQuote(){
-  var currentIndex = quoteArrayIndex();
+  let x = Math.floor(Math.random()*quoteObjectsArray.length);
   
-  currentQuote = currentIndex.quote;
-  currentAuthor = currentIndex.author;
+  document.getElementById("text").innerHTML = quoteObjectsArray[x].quote;
+  
+  document.getElementById("author").innerHTML = quoteObjectsArray[x].author;
 }
+
+console.log(genQuote());
