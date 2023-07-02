@@ -34,7 +34,7 @@ var currentQuote = '',
   currentAuthor = '';
 
 function quoteArrayIndex(){
- randomQuote = quoteObjectsArray[Math.floor(Math.random()*quoteObjectsArray.length)];
+ return randomQuote = quoteObjectsArray[Math.floor(Math.random()*quoteObjectsArray.length)];
 }
 
 function genQuote(){
